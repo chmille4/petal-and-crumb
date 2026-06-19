@@ -1,0 +1,9 @@
+<footer class="site-footer">
+  <div class="site-footer__mark">{% include sprig.html width="30" height="36" stroke="2" %}</div>
+  <div class="site-footer__name">{{ site.title }}</div>
+  <div class="site-footer__links">
+    <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+    <a href="{{ site.instagram.url }}"{% if site.instagram.url != "#" %} target="_blank" rel="noopener"{% endif %}>@{{ site.instagram.handle }}</a>
+  </div>
+  <div class="site-footer__legal">{{ site.find.place }} · Est. {{ site.est_year }}</div>
+</footer>

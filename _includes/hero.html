@@ -1,0 +1,23 @@
+<section id="top" class="hero">
+  <div class="hero__inner">
+    <div class="hero__mark">{% include sprig.html width="48" height="58" stroke="1.4" %}</div>
+    <h1 class="hero__title">{{ site.title }}</h1>
+    <div class="eyebrow eyebrow--wide hero__label">{{ site.tagline }}</div>
+    <p class="hero__subtitle">{{ site.hero.subtitle }}</p>
+
+    <div class="hero__actions">
+      <a href="#menu" class="btn btn--solid">See the Menu</a>
+      <a href="#find" class="btn btn--outline">Find Our Stall</a>
+    </div>
+  </div>
+
+  <div class="hero__photo">
+    {% if site.hero.image and site.hero.image != "" %}
+      <img src="{{ site.hero.image | relative_url }}" alt="{{ site.hero.photo_caption }}">
+    {% else %}
+      <div class="placeholder" style="height:300px;">
+        <span class="placeholder__tag">hero photo — {{ site.hero.photo_caption }}</span>
+      </div>
+    {% endif %}
+  </div>
+</section>

@@ -1,0 +1,5 @@
+# Market hours — each row: day, time.
+- day: Tuesday
+  time: "1:30 – 6:00 pm"
+- day: Saturday
+  time: "9:00 am – 6:00 pm"

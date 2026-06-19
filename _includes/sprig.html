@@ -1,0 +1,12 @@
+{%- comment -%}
+  The botanical "sprig" mark — the brand's signature icon.
+  Params: width, height (required); stroke, stem, petal (optional).
+  e.g. {% include sprig.html width="48" height="58" stroke="1.4" %}
+{%- endcomment -%}
+<svg class="sprig" width="{{ include.width }}" height="{{ include.height }}" viewBox="0 0 60 72" aria-hidden="true" focusable="false">
+  <path d="M30 70 C30 48 30 30 30 8" stroke="{{ include.stem | default: '#b07a5e' }}" stroke-width="{{ include.stroke | default: '2' }}" fill="none"></path>
+  <ellipse cx="20" cy="26" rx="11" ry="4.5" fill="{{ include.petal | default: '#c98e74' }}" transform="rotate(-32 20 26)"></ellipse>
+  <ellipse cx="40" cy="34" rx="11" ry="4.5" fill="{{ include.petal | default: '#c98e74' }}" transform="rotate(32 40 34)"></ellipse>
+  <ellipse cx="22" cy="44" rx="10" ry="4" fill="{{ include.petal | default: '#c98e74' }}" transform="rotate(-28 22 44)"></ellipse>
+  <circle cx="30" cy="8" r="4" fill="{{ include.stem | default: '#b07a5e' }}"></circle>
+</svg>

@@ -1,0 +1,67 @@
+# ─────────────────────────────────────────────────────────────────────
+#  Petal & Crumb — site content & settings
+#
+#  Edit the values below to change the site's words. After you save and
+#  commit, GitHub rebuilds the site automatically (give it ~1 minute).
+#  Menu items and market hours live in the _data/ folder. See README.md.
+# ─────────────────────────────────────────────────────────────────────
+
+title: Petal & Crumb
+tagline: Artisan Bakery
+description: >-
+  Small-batch artisan bakery at the Newton Farmers Market — beignets,
+  biscotti, fresh pasta, and coffee, baked each market morning.
+est_year: 2026
+
+# ── Contact & social ──────────────────────────────────────────────────
+email: hello@petalandcrumb.com
+instagram:
+  handle: petalandcrumb        # without the "@"
+  url: "#"                     # e.g. https://instagram.com/petalandcrumb
+  eyebrow: Follow Along
+
+# ── Hero ──────────────────────────────────────────────────────────────
+hero:
+  subtitle: "Small-batch baking, bloomed daily — found at the Newton Farmers Market."
+  image: ""                    # e.g. /assets/images/hero.jpg (blank = striped placeholder)
+  photo_caption: "fresh beignets & pastries on linen"
+
+# ── Our Story ─────────────────────────────────────────────────────────
+story:
+  eyebrow: Our Story
+  heading: "A little flour, a few flowers, and a lot of patience."
+  paragraphs:
+    - "We bake in small batches, let the dough take its time, and finish every pastry with the care you'd give something you grew yourself. No storefront — just our stall, an early start, and whatever came out of the oven that morning."
+    - "Come find us at the market. We'll have coffee on and something warm to share."
+
+# ── The Menu (items live in _data/menu.yml) ──────────────────────────
+menu:
+  eyebrow: The Menu
+  heading: Fresh from the oven
+  note: "Made each market morning · while it lasts"
+
+# ── Find Our Stall (hours live in _data/hours.yml) ───────────────────
+find:
+  eyebrow: Find Our Stall
+  heading: "We're a market stall — come say hello."
+  place: Newton Farmers Market
+  address_line1: 1189 Beacon Street
+  address_line2: Cold Spring Park
+  hours_label: Market Hours
+  map_label: "map — Cold Spring Park, Newton"
+  map_url: ""                  # optional Google Maps link (blank = plain placeholder)
+
+# ─────────────────────────────────────────────────────────────────────
+#  Build settings — for a "project" GitHub Pages site served at
+#  https://<user>.github.io/petal-and-crumb/ keep baseurl as below.
+#  If you add a custom domain (or use a user/org page), set baseurl: ""
+# ─────────────────────────────────────────────────────────────────────
+baseurl: "/petal-and-crumb"
+url: "https://chmille4.github.io"
+
+# Don't copy these into the built site
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
