@@ -6,9 +6,6 @@
 - name: Biscotti
   price: "$8"
   description: "Pistachio and craisin, baked twice and built to dunk."
-- name: Fresh Pasta
-  price: "$9"
-  description: "Egg pasta, made daily and rolled by hand."
 - name: Coffee
-  price: "$7"
+  price: "$9"
   description: "Hot, honest, and on all morning."
