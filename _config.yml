@@ -7,7 +7,7 @@
 # ─────────────────────────────────────────────────────────────────────
 
 title: Petal & Crumb
-tagline: Artisan Bakery
+tagline: Bakery
 description: >-
   Small-batch artisan bakery at the Newton Farmers Market — beignets,
   biscotti, fresh pasta, and coffee, baked each market morning.
@@ -49,7 +49,7 @@ find:
   address_line2: Cold Spring Park
   hours_label: Market Hours
   map_label: "map — Cold Spring Park, Newton"
-  map_url: ""                  # optional Google Maps link (blank = plain placeholder)
+  map_url: "https://www.google.com/maps/place/1189+Beacon+St,+Waban,+MA+02468/@42.3311656,-71.2157969,17z/data=!3m1!4b1!4m5!3m4!1s0x89e3826879d27f31:0xf9cd92de10a01904!8m2!3d42.3311656!4d-71.2132166?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D"                  # optional Google Maps link (blank = plain placeholder)
 
 # ─────────────────────────────────────────────────────────────────────
 #  Build settings — for a "project" GitHub Pages site served at
