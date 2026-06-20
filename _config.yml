@@ -23,7 +23,7 @@ instagram:
 # ── Hero ──────────────────────────────────────────────────────────────
 hero:
   subtitle: "Small-batch baking, bloomed daily — found at the Newton Farmers Market."
-  image: ""                    # e.g. /assets/images/hero.jpg (blank = striped placeholder)
+  image: "/assets/images/hero.png"                    # e.g. /assets/images/hero.jpg (blank = striped placeholder)
   photo_caption: "fresh beignets & pastries on linen"
 
 # ── Our Story ─────────────────────────────────────────────────────────
